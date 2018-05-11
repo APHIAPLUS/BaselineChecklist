@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Leckerli+One);
+/* don't mind this*/
+/* #wrapper {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-top: -40px;
+    margin-left: -175px;
+}*/
+/* OK, here we go */
+ .happySelectContainer {
+    position: relative;
+    border: 2px solid #3B0B0E;
+    border-radius: 15px;
+    background-color: #FBB03B;
+    display:inline-block;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .50), inset 0 0px 0 #FBD8A1;
+}
+.happySelectContainer select {
+    position: relative;
+    font-size:20px;
+    font-family:'Leckerli One', cursive;
+    font-weight:100;
+    color:#3B0B0E;
+    height:40px;
+    /*padding: 5px 80px 5px 5px;*/
+    margin: 0;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow:'';
+    -moz-padding-end: 51px;
+    background: transparent;
+    background-color: plum;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.happySelectContainer select::-ms-expand {
+    display: none;
+    /*for IE*/
+}
+.happySelectContainer .arrow {
+    position: absolute;
+    background: url(http://s22.postimg.org/51zf7cl1d/arrow.png) no-repeat right;
+    /*background-size:71px 80px;*/
+    height: 40px;
+    width: 21px;
+    right: 0px;
+}
+:focus {
+    outline: none;
+}

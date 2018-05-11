@@ -1,0 +1,29 @@
+/* 
+    Document   : buttons
+    Created on : Nov 26, 2013, 12:35:56 PM
+    Author     : Geofrey Nyabuto
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.btn_header {
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 22px;
+  background: bottom;
+  padding: 4px 11px 4px 11px;
+  text-decoration: none;
+}
+
+.btn_header:hover {
+  background: white;
+/*  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+  text-decoration: none;
+}
+
